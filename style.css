@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
 /*Inicio estilos del header*/
 
 .color {
@@ -243,3 +247,135 @@
 /*------------------------------------------*/
 
 /*Inicio estilos de Nosotros*/
+
+.sectionUno__nosotros {
+  position: relative;
+}
+
+.row .row .video__Nosotros {
+  width: 100%;
+}
+
+.row .parrafo1 {
+  position: absolute;
+  color: white;
+  top: 0%;
+  left: 25px;
+  font-size: 100px;
+  font-family: Staatliches, cursive;
+  text-shadow: 2px 2px 2px black;
+}
+
+.row .parrafo2 {
+  position: absolute;
+  color: white;
+  top: 95px;
+  left: 25px;
+  font-size: 100px;
+  font-family: Staatliches, cursive;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*Fin estilos sectionUno de Nosotros*/
+
+/*Inicio sectionDoss de Nosotros*/
+
+.sectionDosNosotros {
+  background-color: #56beb6;
+  height: 450px;
+}
+
+.sectionDosNosotros .sectionDosNosotros__contenedor1 img {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  left: 35px;
+  top: 25px;
+}
+
+.sectionDosNosotros p {
+  width: 600px;
+  color: white;
+}
+
+.sectionDosNosotros__contenedor2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .sectionDosNosotros {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+  .sectionDosNosotros {
+    height: 650px;
+  }
+
+  .sectionDosNosotros .sectionDosNosotros__contenedor1 img {
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 35px;
+    top: 25px;
+  }
+}
+
+/*Fin estilos sectionDos de nosotros*/
+
+/*---------------------------------*/
+
+/*Inicio estilos sectionTres de nosotros*/
+
+.sectionTresNosotros {
+  background-color: #f2cf66;
+  width: 100%;
+  height: 600px;
+}
+
+@media only screen and (max-width: 480px) {
+  .sectionTresNosotros {
+    height: 1000px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+  .sectionTresNosotros {
+    height: 1000px;
+  }
+  .sectionTresNosotros .sectionTres__contenedor {
+    margin-top: 50px;
+  }
+}
+
+.sectionTresNosotros .fila1 {
+  position: relative;
+  top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sectionTresNosotros .sectionTres__contenedor {
+  background-color: #f29985;
+  border-radius: 25px;
+  width: 700px;
+  box-shadow: #56beb6 5px 5px 5px;
+}
+
+.sectionTresNosotros .sectionTres__contenedor p {
+  color: white;
+}
+
+.fila2 {
+  margin-top: 100px;
+}
+
+.fila2 p {
+  color: white;
+  text-align: center;
+}

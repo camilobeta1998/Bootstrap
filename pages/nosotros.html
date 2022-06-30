@@ -15,7 +15,7 @@
 
   <!--Inicio header-->
   <!--Inicio primera columna del header-->
-  <header class="row">
+  <header class="row" id="arriba">
     <div class="col col__navbar">
       <nav class="navbar navbar-expand-lg color">
         <div class="container-fluid">
@@ -53,26 +53,20 @@
   <!--Fin primera columna del header-->
 
   <!--Inicio Section uno-->
-  <section>
-    <div>
-      <video src="../multimedia/videos/video2.mp4" autoplay loop muted controls></video>
-    </div>
-    <div>
-      <p>Acerca de nosotros</p>
-    </div>
-    <div>
-      <p>nosotros</p>
-    </div>
+  <section class="row sectionUno__nosotros">
+
+    <video src="../multimedia/videos/video2.mp4" autoplay loop muted controls class="video__Nosotros"></video>
+    <p class="parrafo1">Acerca de</p>
+    <p class="parrafo2">nosotros</p>
   </section>
   <!--Fin Section uno-->
 
-  <hr>
   <!--Inicio Sectrion dos-->
-  <section>
-    <div>
+  <section class="row sectionDosNosotros">
+    <div class="col-sm-12 col-lg-5 col-md-4 sectionDosNosotros__contenedor1">
       <img src="../multimedia/images/gelato_imagen1_nosotros.jpg" alt="Imagen de vitrina llena de Gelato">
     </div>
-    <div>
+    <div class="col-sm-2 col-lg-7 col-md-8 sectionDosNosotros__contenedor2">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa est libero fuga accusantium eveniet,
         minus nobis, rem, aliquid molestias eius fugiat molestiae sit ducimus mollitia deserunt ipsam illum
         veniam nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt perferendis
@@ -81,34 +75,38 @@
     </div>
   </section>
   <!--Fin Section dos-->
-  <hr>
 
 
   <!--Inicio section tres-->
-  <section>
-    <!--Aquí se colocá la misión-->
-    <div>
-      <p>Misión</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit praesentium non porro perferendis ducimus
-        accusamus quaerat odit illo corrupti inventore facilis earum nihil, rem eveniet quo enim, exercitationem
-        consectetur recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga facilis incidunt, nam
-        minus
-        nisi repellat nostrum veritatis magnam odit delectus. Ad quod expedita ratione, doloremque beatae natus
-        distinctio
-        veritatis voluptatum.</p>
+  <section class="sectionTresNosotros">
+    <div class="row fila1">
+      <!--Aquí se colocá la misión-->
+      <div class="col-lg-6 col-sm-12 sectionTres__contenedor">
+        <p>Misión</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit praesentium non porro perferendis ducimus
+          accusamus quaerat odit illo corrupti inventore facilis earum nihil, rem eveniet quo enim, exercitationem
+          consectetur recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga facilis incidunt, nam
+          minus
+          nisi repellat nostrum veritatis magnam odit delectus. Ad quod expedita ratione, doloremque beatae natus
+          distinctio
+          veritatis voluptatum.</p>
+      </div>
+
+      <!--Aquí se colocará la visión-->
+      <div class="col-lg-6 col-sm-12  sectionTres__contenedor">
+        <p>Vision</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus soluta dolores perferendis
+          optio
+          voluptas aliquid cum, perspiciatis quaerat, laborum facere unde delectus sit sint, eligendi sapiente
+          reiciendis
+          error, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat ipsam saepe aperiam id
+          impedit
+          iure quibusdam repellat in itaque explicabo cum consequatur, tempore cupiditate quia animi rerum, non sed.</p>
+      </div>
+
     </div>
 
-    <!--Aquí se colocará la visión-->
-    <div>
-      <p>Visión</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus soluta dolores perferendis
-        optio
-        voluptas aliquid cum, perspiciatis quaerat, laborum facere unde delectus sit sint, eligendi sapiente reiciendis
-        error, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat ipsam saepe aperiam id impedit
-        iure quibusdam repellat in itaque explicabo cum consequatur, tempore cupiditate quia animi rerum, non sed.</p>
-    </div>
-
-    <div>
+    <div class="row fila2">
       <p>Nuestra experiencia</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel perspiciatis accusantium qui ratione?
         Sapiente quae, animi fuga vitae, veniam consequuntur illum vero officiis eligendi explicabo reprehenderit quo et
@@ -119,7 +117,7 @@
 
   </section>
   <!--Fin section tres-->
-  <hr>
+
 
   <!--Inicio Footer-->
   <footer class="row pie">
